@@ -1,4 +1,4 @@
-CREATE DATABASE "Comics";
+\c "Comics"
 DROP SCHEMA IF EXISTS "Comics";
 CREATE SCHEMA IF NOT EXISTS "Comics";
 
