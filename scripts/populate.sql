@@ -1,6 +1,6 @@
 USE `Comics`;
 
-INSERT INTO `Comics`.`Series` VALUES (1, 'Rogue Trooper', '')
+INSERT INTO `Comics`.`Series` VALUES (1, 'Rogue Trooper', 'rogue_trooper_I/cover.jpg')
 
 INSERT INTO `Comics`.`SeriesComics` VALUES (1, 1)
 INSERT INTO `Comics`.`SeriesComics` VALUES (1, 2)
@@ -23,9 +23,9 @@ INSERT INTO `Comics`.`ComicPages` VALUES (2, 4)
 INSERT INTO `Comics`.`ComicPages` VALUES (2, 5)
 INSERT INTO `Comics`.`ComicPages` VALUES (3, 6)
 
-INSERT INTO `Comics`.`Page` VALUES (1, 1, '')
-INSERT INTO `Comics`.`Page` VALUES (2, 2, '')
-INSERT INTO `Comics`.`Page` VALUES (3, 3, '')
+INSERT INTO `Comics`.`Page` VALUES (1, 1, 'rogue_trooper_I/1.jpg')
+INSERT INTO `Comics`.`Page` VALUES (2, 2, 'rogue_trooper_I/2.jpg')
+INSERT INTO `Comics`.`Page` VALUES (3, 3, 'rogue_trooper_I/3.jpg')
 INSERT INTO `Comics`.`Page` VALUES (4, 1, '')
 INSERT INTO `Comics`.`Page` VALUES (5, 2, '')
 INSERT INTO `Comics`.`Page` VALUES (6, 1, '')
